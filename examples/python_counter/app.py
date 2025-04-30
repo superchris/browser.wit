@@ -7,29 +7,29 @@ from browser.imports.global_ import get_window
 class Browser(browser.Browser):
     def start(self):
         document = get_window().document()
-        root = document.get_element_by_id("app").as_node()
-        root_styles = root.as_element().as_html_element().style()
+        root = document.get_element_by_id("app").as_html_element()
+        root_styles = root.style()
         root_styles.set_property("display", "flex", None)
         root_styles.set_property("gap", "10px", None)
 
         # add elements
-        increase = document.create_element("button", None)
-        increase.as_node().set_text_content("+")
+        increase = document.create_element("button", None).as_html_button_element()
+        increase.set_text_content("+")
         root.append_child(increase.as_node())
-        label = document.create_element("span", None).as_node()
+        label = document.create_element("span", None).as_html_span_element()
         label.set_text_content("Counter: ")
-        root.append_child(label)
-        output = document.create_element("span", None).as_node()
-        root.append_child(output)
-        decrease = document.create_element("button", None)
-        decrease.as_node().set_text_content("-")
+        root.append_child(label.as_node())
+        output = document.create_element("span", None).as_html_span_element()
+        root.append_child(output.as_node())
+        decrease = document.create_element("button", None).as_html_button_element()
+        decrease.set_text_content("-")
         root.append_child(decrease.as_node())
 
         # counter logic
         i = 0
         events = {
-            Event.INCREASE: increase.as_html_element().onclick_subscribe(),
-            Event.DECREASE: decrease.as_html_element().onclick_subscribe(),
+            Event.INCREASE: increase.onclick_subscribe(),
+            Event.DECREASE: decrease.onclick_subscribe(),
         }
         while True:
             output.set_text_content(str(i))
