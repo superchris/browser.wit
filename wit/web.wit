@@ -32940,7 +32940,7 @@ interface global {
     as-event-target: func() -> event-target;
   }
   resource window {
-    window: func() -> window;
+    // window: func() -> window;
     self: func() -> window;
     document: func() -> option<document>;
     name: func() -> string;
