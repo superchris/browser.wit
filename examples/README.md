@@ -17,6 +17,7 @@ npm install -g @bytecodealliance/jco
 - go_counter
 - python_counter
 - dotnet_counter
+- moonbit_counter
 
 
 ## Compile Example to Component
