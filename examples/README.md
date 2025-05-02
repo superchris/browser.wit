@@ -14,8 +14,9 @@ npm install -g @bytecodealliance/jco
 
 ## Available Rust examples
 - rust_counter
-- python_counter
 - go_counter
+- python_counter
+- dotnet_counter
 
 
 ## Compile Example to Component
@@ -56,6 +57,13 @@ componentize-py --wit-path ../../wit --world browser bindings .
 Compile the example
 ```shell
 componentize-py --wit-path ../../wit --world browser componentize app -o component.wasm
+```
+
+### C#/.NET
+Compile the example
+```shell
+dotnet build --configuration Release
+cp bin/Release/net10.0/wasi-wasm/native/dotnet_counter.wasm ./component.wasm
 ```
 
 ## Make the Component Browser Ready
