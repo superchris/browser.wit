@@ -14,6 +14,8 @@ npm install -g @bytecodealliance/jco
 
 ## Available Rust examples
 - rust_counter
+- python_counter
+- go_counter
 
 
 ## Compile Example to Component
@@ -28,6 +30,21 @@ Compile the example
 ```shell
 cargo build --release --target wasm32-unknown-unknown
 wasm-tools component new ./target/wasm32-unknown-unknown/release/[example].wasm -o ./component.wasm
+```
+
+### Go
+Generate types from wit
+```shell
+go get go.bytecodealliance.org/cmd/wit-bindgen-go
+go run go.bytecodealliance.org/cmd/wit-bindgen-go generate -o internal/ ./wit
+```
+
+Compile the example
+<!-- TODO: enable once we remove the go-specific world ```shell
+tinygo build --target=wasip2 --no-debug -o component.wasm --wit-package ./wit --wit-world browser main.go
+``` -->
+```shell
+tinygo build --target=wasip2 --no-debug -o component.wasm --wit-package ./wit --wit-world go-example-world main.go
 ```
 
 ### Python
