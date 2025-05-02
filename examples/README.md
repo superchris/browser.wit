@@ -66,6 +66,21 @@ dotnet build --configuration Release
 cp bin/Release/net10.0/wasi-wasm/native/dotnet_counter.wasm ./component.wasm
 ```
 
+### MoonBit
+Generate types from wit
+
+Note: this will override the existing example code.
+```shell
+wit-bindgen moonbit ../../wit --world browser
+```
+
+Compile the example
+```shell
+moon build --target wasm
+wasm-tools component embed ../../wit target/wasm/release/build/gen/gen.wasm -o target/gen.wasm --world browser  --encoding utf16
+wasm-tools component new target/gen.wasm -o component.wasm
+```
+
 ## Make the Component Browser Ready
 <!-- TODO: remove `--map` for pollable and webidl once jco has working built in pollable and webidl support. -->
 ```shell

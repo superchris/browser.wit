@@ -1,0 +1,6 @@
+/target
+/static
+/component.wasm
+/ffi
+/interface
+/world

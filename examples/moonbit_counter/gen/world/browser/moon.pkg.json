@@ -1,0 +1,6 @@
+{
+    "import": [
+        { "path" : "webidl/browser/interface/webidl/browser/global", "alias" : "global" },
+        { "path" : "webidl/browser/interface/wasi/io/poll", "alias" : "poll" }
+    ]
+}

@@ -1,0 +1,11 @@
+
+{
+      "link": {
+            "wasm": {
+                  "exports": ["cabi_realloc:cabi_realloc", "wasmExportStart:start"],
+                  "export-memory-name": "memory",
+                  "heap-start-address": 16
+            }
+      }
+      ,"import": [{ "path" : "webidl/browser/ffi", "alias" : "ffi" }, { "path" : "webidl/browser/gen/world/browser", "alias" : "browser" }]
+}
