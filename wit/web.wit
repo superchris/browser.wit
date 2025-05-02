@@ -1043,8 +1043,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -1297,8 +1298,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -1658,8 +1660,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -1932,8 +1935,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -2277,8 +2281,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -2728,8 +2733,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -3305,8 +3311,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -3947,8 +3954,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -4238,8 +4246,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -5070,8 +5079,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -5355,8 +5365,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -5735,8 +5746,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -6298,8 +6310,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -6599,8 +6612,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -6861,8 +6875,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -6999,7 +7014,8 @@ interface global {
   resource file-reader-sync {
     read-as-array-buffer: func(blob: borrow<blob>) -> array-buffer;
     read-as-binary-string: func(blob: borrow<blob>) -> string;
-    read-as-text: func(blob: borrow<blob>, encoding: option<string>) -> string;
+    // breaks in C#
+    // read-as-text: func(blob: borrow<blob>, encoding: option<string>) -> string;
     read-as-data-url: func(blob: borrow<blob>) -> string;
   }
   resource svgfe-diffuse-lighting-element {
@@ -7140,8 +7156,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -7497,8 +7514,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -7804,8 +7822,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -8083,8 +8102,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -8344,8 +8364,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -8631,8 +8652,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -8756,7 +8778,8 @@ interface global {
     as-event-target: func() -> event-target;
   }
   resource text-decoder {
-    encoding: func() -> string;
+    // breaks in C#
+    // encoding: func() -> string;
     fatal: func() -> bool;
     decode: func(input: option<buffer-source>, options: option<text-decode-options>) -> string;
   }
@@ -9282,7 +9305,8 @@ interface global {
     scissor: func(x: g-lint, y: g-lint, width: g-lsizei, height: g-lsizei);
     shader-source: func(shader: borrow<web-gl-shader>, source: string);
     // stencil-func: func(%func: g-lenum, ref: g-lint, mask: g-luint);
-    stencil-func-separate: func(face: g-lenum, %func: g-lenum, ref: g-lint, mask: g-luint);
+    // breaks in moonbit
+    // stencil-func-separate: func(face: g-lenum, %func: g-lenum, ref: g-lint, mask: g-luint);
     stencil-mask: func(mask: g-luint);
     stencil-mask-separate: func(face: g-lenum, mask: g-luint);
     stencil-op: func(fail: g-lenum, zfail: g-lenum, zpass: g-lenum);
@@ -9705,8 +9729,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -10204,8 +10229,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -10547,8 +10573,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -10820,8 +10847,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -11204,8 +11232,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -12005,8 +12034,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -12460,8 +12490,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -12810,8 +12841,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -13367,8 +13399,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -13632,8 +13665,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -14146,8 +14180,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -14674,8 +14709,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -14986,8 +15022,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -15456,8 +15493,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -15763,8 +15801,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -16044,8 +16083,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -16324,8 +16364,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -16638,8 +16679,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -16922,8 +16964,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -17215,8 +17258,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -17469,8 +17513,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -18069,8 +18114,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -18358,8 +18404,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -18819,8 +18866,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -19214,8 +19262,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -19336,7 +19385,8 @@ interface global {
     as-event-target: func() -> event-target;
   }
   resource console {
-    assert: func(condition: option<bool>, data: list<any>);
+    // breaks in moonbit
+    // assert: func(condition: option<bool>, data: list<any>);
     clear: func();
     count: func(label: option<string>);
     count-reset: func(label: option<string>);
@@ -19415,7 +19465,8 @@ interface global {
     error: option<string>,
   }
   resource console-instance {
-    assert: func(condition: option<bool>, data: list<any>);
+    // breaks in moonbit
+    // assert: func(condition: option<bool>, data: list<any>);
     clear: func();
     count: func(label: option<string>);
     count-reset: func(label: option<string>);
@@ -19738,8 +19789,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -20250,8 +20302,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -20586,8 +20639,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -20720,7 +20774,8 @@ interface global {
     set-location: func(location: option<u64>);
     get-metadata: func(parameters: option<idb-file-metadata-parameters>) -> option<idb-file-request>;
     read-as-array-buffer: func(size: u64) -> option<idb-file-request>;
-    read-as-text: func(size: u64, encoding: option<string>) -> option<idb-file-request>;
+    // breaks in C#
+    // read-as-text: func(size: u64, encoding: option<string>) -> option<idb-file-request>;
     write: func(value: array-buffer-or-array-buffer-view-or-blob-or-string) -> option<idb-file-request>;
     append: func(value: array-buffer-or-array-buffer-view-or-blob-or-string) -> option<idb-file-request>;
     truncate: func(size: option<u64>) -> option<idb-file-request>;
@@ -20887,8 +20942,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -21148,8 +21204,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -21562,8 +21619,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -21697,8 +21755,9 @@ interface global {
   }
   resource xml-document {
     load: func(url: string) -> bool;
-    %async: func() -> bool;
-    set-async: func(%async: bool);
+    // breaks in Go
+    // %async: func() -> bool;
+    // set-async: func(%async: bool);
     implementation: func() -> dom-implementation;
     url: func() -> string;
     document-uri: func() -> string;
@@ -22169,8 +22228,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -22406,8 +22466,9 @@ interface global {
     set-no-module: func(no-module: bool);
     charset: func() -> string;
     set-charset: func(charset: string);
-    %async: func() -> bool;
-    set-async: func(%async: bool);
+    // breaks in Go
+    // %async: func() -> bool;
+    // set-async: func(%async: bool);
     defer: func() -> bool;
     set-defer: func(defer: bool);
     cross-origin: func() -> option<string>;
@@ -22577,8 +22638,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -22877,8 +22939,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -23158,8 +23221,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -23418,8 +23482,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -23716,8 +23781,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -23853,7 +23919,8 @@ interface global {
     DROP-ON: static func() -> s16;
     DROP-AFTER: static func() -> s16;
     can-drop: func(row: s32, orientation: s32, data-transfer: option<borrow<data-transfer>>) -> bool;
-    drop: func(row: s32, orientation: s32, data-transfer: option<borrow<data-transfer>>);
+    // breaks in moonbit
+    // drop: func(row: s32, orientation: s32, data-transfer: option<borrow<data-transfer>>);
     get-parent-index: func(row: s32) -> s32;
     has-next-sibling: func(row: s32, after-index: s32) -> bool;
     get-level: func(row: s32) -> s32;
@@ -24035,8 +24102,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -24368,8 +24436,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -24639,8 +24708,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -24809,7 +24879,8 @@ interface global {
     as-event: func() -> event;
   }
   record native-os-file-read-options {
-    encoding: option<string>,
+    // breaks in C#
+    // encoding: option<string>,
     bytes: option<u64>,
   }
   record native-os-file-write-atomic-options {
@@ -24997,8 +25068,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -25499,8 +25571,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -25867,8 +25940,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -26754,8 +26828,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -27022,8 +27097,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -27498,8 +27574,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -27747,8 +27824,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -28264,8 +28342,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -28560,8 +28639,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -28964,8 +29044,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -29247,8 +29328,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -29696,8 +29778,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -29977,8 +30060,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -30162,7 +30246,8 @@ interface global {
     x-cdm-codecs: string,
   }
   resource text-encoder {
-    encoding: func() -> string;
+    // breaks in C#
+    // encoding: func() -> string;
     encode: func(input: option<string>) -> uint8-array;
   }
   resource svg-filter-element {
@@ -30300,8 +30385,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -30604,8 +30690,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -30902,8 +30989,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -31189,8 +31277,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -31505,8 +31594,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -31876,8 +31966,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -32213,8 +32304,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -32501,8 +32593,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -32818,8 +32911,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -33379,8 +33473,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -33555,8 +33650,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -33950,8 +34046,9 @@ interface global {
     set-target: func(target: string);
     integrity: func() -> string;
     set-integrity: func(integrity: string);
-    %as: func() -> string;
-    set-as: func(%as: string);
+    // breaks in moonbit
+    // %as: func() -> string;
+    // set-as: func(%as: string);
     sheet: func() -> option<style-sheet>;
     title: func() -> string;
     set-title: func(title: string);
@@ -34110,8 +34207,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -34555,8 +34653,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -34887,7 +34986,8 @@ interface global {
   }
   record json-web-key {
     kty: string,
-    %use: option<string>,
+    // breaks in moonbit
+    // %use: option<string>,
     key-ops: option<list<string>>,
     alg: option<string>,
     ext: option<bool>,
@@ -35083,8 +35183,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -35367,8 +35468,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -35671,8 +35773,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -35988,8 +36091,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -36371,8 +36475,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -36624,8 +36729,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -37099,8 +37205,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -37393,8 +37500,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -37970,8 +38078,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -38327,8 +38436,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -38602,8 +38712,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -39185,8 +39296,9 @@ interface global {
     set-autocomplete: func(autocomplete: string);
     enctype: func() -> string;
     set-enctype: func(enctype: string);
-    encoding: func() -> string;
-    set-encoding: func(encoding: string);
+    // breaks in C#
+    // encoding: func() -> string;
+    // set-encoding: func(encoding: string);
     method: func() -> string;
     set-method: func(method: string);
     name: func() -> string;
@@ -39359,8 +39471,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -39688,8 +39801,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -39970,8 +40084,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -40433,8 +40548,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -40723,8 +40839,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -41064,8 +41181,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -41396,8 +41514,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -41795,8 +41914,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -42183,8 +42303,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -42554,8 +42675,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -43004,8 +43126,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -43510,8 +43633,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -43847,8 +43971,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -44201,8 +44326,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -44674,8 +44800,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -45243,8 +45370,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -45549,8 +45677,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -45847,8 +45976,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -46107,8 +46237,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -46423,8 +46554,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -46708,8 +46840,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -47215,8 +47348,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -47749,8 +47883,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -48220,8 +48355,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -48506,8 +48642,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -48875,8 +49012,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -49199,8 +49337,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -49675,8 +49814,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -50016,8 +50156,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -50598,8 +50739,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -50897,8 +51039,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -51179,8 +51322,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -51564,8 +51708,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -52070,8 +52215,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -52559,8 +52705,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -52863,8 +53010,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -53222,8 +53370,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -53537,8 +53686,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -53794,8 +53944,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -54116,8 +54267,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -54641,8 +54793,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -55010,8 +55163,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -55295,8 +55449,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -55586,8 +55741,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -56322,8 +56478,9 @@ interface global {
     get-elements-by-tag-name-ns: func(namespace: option<string>, local-name: string) -> html-collection;
     get-elements-by-class-name: func(class-names: string) -> html-collection;
     get-elements-with-grid: func() -> list<element>;
-    insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
-    insert-adjacent-text: func(where: string, data: string);
+    // breaks in moonbit
+    // insert-adjacent-element: func(where: string, element: borrow<element>) -> option<element>;
+    // insert-adjacent-text: func(where: string, data: string);
     font-size-inflation: func() -> f32;
     set-pointer-capture: func(pointer-id: s32);
     release-pointer-capture: func(pointer-id: s32);
@@ -57048,7 +57205,8 @@ interface global {
     visible,
   }
   record element-creation-options {
-    is: option<string>,
+    // breaks in moonbit
+    // is: option<string>,
     pseudo: option<string>,
   }
   resource document {
