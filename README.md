@@ -12,5 +12,4 @@ This will create a new version of `wit/web.wit` by running [web2idl](https://git
 
 ## Examples
 
-In the `examples` directory, there is a simple counter example implemented as 
-a web assembly component interacting with browser apis using these interfaces in multiple languages. See the [examples README](examples/README.md) for instructions on building and running them.
+In the `examples` directory, there is a simple counter example implemented as a web assembly component interacting with browser apis using these interfaces in multiple languages. See the [examples README](examples/README.md) for instructions on building and running them.
